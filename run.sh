@@ -22,5 +22,12 @@ rosrun mypkg get_map_node.py &
 sleep 2
 
 # Start position_node.py
-rosrun mypkg position_node.py
+rosrun mypkg position_node.py &
+
+sleep2
+
+python map.py &
+
+sleep 2
+python autonom.py
 
